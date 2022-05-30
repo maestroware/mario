@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+* {
+    font-family: 'Parisienne', cursive;
+}
+
+.dc {
+    position: absolute;
+    right: 0;
+    /* float: right; */
+}
+
+.rage {
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+}
+
+.rage:hover {
+    background: black;
+    color: aqua;
+}
+
+::-webkit-progress-bar {
+    border-radius: 10px;
+    background: linear-gradient(90deg, red, yellow);
+}
+
+a {
+    color: black;
+    list-style-type: none;
+}
+
+.modal-dialog {
+    width: 90%;
+}
+
+.insimg{
+    display: inline-block;
+    width: 45%;
+}
+
+video{
+    background-image: url('game_console.png');
+    background-size: cover;
+    background-position: center;
+    padding:25px;
+}
